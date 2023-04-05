@@ -1,0 +1,24 @@
+{
+  "name": "uezdBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot:launch": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shappoff/uezdBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shappoff/uezdBot/issues"
+  },
+  "homepage": "https://github.com/shappoff/uezdBot#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "telegraf": "^3.38.0"
+  }
+}
