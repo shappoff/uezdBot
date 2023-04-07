@@ -6,7 +6,7 @@ fetch(resultBotUrl)
     .then((r) => r.json())
     .then((ctx) => {
         for (const key in ctx) {
-            console.log(key:"", key);
+            console.log("key:", key);
         }
         if (ctx.result) {
             ctx.result.forEach(({message}) => {
