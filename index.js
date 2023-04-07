@@ -2,6 +2,8 @@ const fetch = require('node-fetch');
 
 const resultBotUrl = `https://api.telegram.org/bot${process.env.BOT_TOKEN}/getUpdates`;
 
+console.log("url", resultBotUrl);
+
 fetch(resultBotUrl)
     .then((r) => r.json())
     .then((ctx) => {
