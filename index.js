@@ -7,6 +7,7 @@ console.log("url", resultBotUrl);
 fetch(resultBotUrl)
     .then((r) => r.json())
     .then((ctx) => {
+        console.log(ctx);
         if (ctx.result) {
             ctx.result.forEach(({message}) => {
                 if (message) {
