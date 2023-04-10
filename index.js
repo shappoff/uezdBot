@@ -24,4 +24,8 @@ fetch(resultBotUrl)
                 }
             });
         }
+
+        if (ctx.description) {
+            console.log('error', JSON.stringify(ctx));
+        }
     });
